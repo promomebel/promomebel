@@ -1,0 +1,11 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.image-container img {
+  width: 100%; /* Make the image's width fill the viewport */
+  height: auto; /* Adjust height automatically to maintain aspect ratio */
+  display: block; /* Remove any default margins or padding */
+}
